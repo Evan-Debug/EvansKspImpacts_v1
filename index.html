@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+ <style>
+  	body {font-family: "Lato", sans-serif;}
+		.sidenav {height: 100%;width: 200px;position: fixed;z-index: 1;top: 0;left: 0;background-color: #464850;overflow-x: hidden;padding-top: 20px;}
+		.sidenav a {padding: 6px 8px 6px 16px;text-decoration: none;font-size: 25px;color: #818181;display: block;}
+		.sidenav a:hover {color: #f1f1f1;}
+		.main {margin-left: 200px; /* Same as the width of the sidenav */font-size: 20px; /* Increased text to enable scrolling */padding: 0px 10px;}
+		@media screen and (max-height: 450px) {
+  		.sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}}
+  </style>
 <head>
   <link rel="icon" href="./Images/Icons/EI_Main.png" type="image/png">
   <meta charset="UTF-8">
@@ -11,25 +21,15 @@
   
 </head>
 <body>
-  <ul class="tabs">
-    <img class="ScaleIcon" src="Images/Icons/EI_Main.png" type="image/png" alt="Girl in a jacket">
-    <li data-tab-target="#home" class="active tab">Home</li>
-    <li data-tab-target="#about" class="tab">About</li>
-  </ul>
+  <div class="sidenav" style="">
+	  <img class="ScaleIcon" src="Images/Icons/EI_Main.png" type="image/png" alt="Girl in a jacket">
+  	  <button onclick="HomeLink()" class="buttonActivMenu"><h3>Home</h3></a></button>
+  	  <button onclick="Link2()" class="buttonMenuWithUndercategory"><h3>About</h3></a></button>
+	  <!--<button onclick="Link2()" class="buttonSecondMenu">link2.1</a></button>  -->
+	  <!--<button onclick="Link2()" class="buttonLastSecondMenu">link2.2</a></button>-->
+	</div>
 
-  <div class="tab-content">
-    <div id="home" data-tab-content class="active">
-      <h1 style="text-align:center" class="BorderRound"  >Home</h1>
-      <h2 style="text-align:center" >This is the home</h2>
-    </div>
-	
-	
-    <div id="about" data-tab-content>
-      <h1 class="BorderRound" style="text-align:center" >About</h1>
-    </div>
-	
-  </div>
-
-
+	<div class="main">
+      Your text and images here
 </body>
 </html>
