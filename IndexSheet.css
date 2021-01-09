@@ -36,7 +36,8 @@ body {
   border-color: #d1d1d1;
   
   border-width: 5px 5px;
-  width: 50px; 
+  max-width: 50px;
+  width: auto; 
   height: auto;
 }
 
