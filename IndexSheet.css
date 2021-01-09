@@ -88,8 +88,10 @@
 }
 .sidenav {
   display: inset;
+  padding: auto;
+  margin: auto;
   /*border-style: solid;*/
-  background: linear-gradient(to top right,grey, white 50%, grey);
+  background: linear-gradient(to left,black, grey, black);
   justify-content: space-around;
 }
 
