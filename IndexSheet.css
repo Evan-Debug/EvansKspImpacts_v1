@@ -33,11 +33,10 @@ body {
 }
 
 .ScaleIcon {
-  border-color: #d1d1d1;
   
-  border-width: 5px 5px;
-  max-width: 50px;
-  width: auto; 
+  max-width: 2%;
+  max-height: 2%;
+  width: auto;
   height: auto;
 }
 
