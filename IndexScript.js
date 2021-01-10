@@ -1,3 +1,8 @@
+document.querySelector(".StringHome").textContent = "Home";
+document.querySelector(".StringPreviews").textContent = "Previews";
+document.querySelector(".StringPacks").textContent = "Packs";
+document.querySelector(".StringAbout").textContent = "About";
+
 function HomeLink(){
 	window.location.href = "index.html";
 }

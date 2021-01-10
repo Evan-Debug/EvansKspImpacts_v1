@@ -1,3 +1,12 @@
+.StringHome {
+}
+.StringPreviews {
+}
+.StringPacks {
+}
+.StringAbout {
+}
+
 .buttonMenu {
   background-color: #464850;
   border: none;
@@ -91,7 +100,7 @@
   padding: auto;
   margin: auto;
   /*border-style: solid;*/
-  background: linear-gradient(to left,black, grey, black);
+  background: linear-gradient(to left top ,#0090b8,#a600ff);
   justify-content: space-around;
 }
 
